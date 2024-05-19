@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/qt-project.org/imports/QtQuick/Studio/EventSystem/">
+    <file alias="EventSystem.qml">/Users/alm3ndr1t/Graduaatsproef/Minesweeper/build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/tools/eventsystem/EventSystem.qml</file>
+    <file alias="EventListener.qml">/Users/alm3ndr1t/Graduaatsproef/Minesweeper/build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/tools/eventsystem/EventListener.qml</file>
+  </qresource>
+</RCC>
+

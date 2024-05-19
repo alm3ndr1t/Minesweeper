@@ -1,0 +1,11 @@
+module Minesweeper
+linktarget Minesweeperplugin
+optional plugin Minesweeperplugin
+classname MinesweeperPlugin
+typeinfo Minesweeper.qmltypes
+prefer :/qt/qml/Minesweeper/
+singleton Constants 1.0 Constants.qml
+DirectoryFontLoader 1.0 DirectoryFontLoader.qml
+EventListModel 1.0 EventListModel.qml
+EventListSimulator 1.0 EventListSimulator.qml
+

@@ -1,0 +1,108 @@
+{
+	"BUILD_DIR" : "/Users/alm3ndr1t/Graduaatsproef/Minesweeper/build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/tools/eventsystem/QuickStudioEventSystemplugin_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/alm3ndr1t/Graduaatsproef/Minesweeper/build/Qt_6_6_3_for_macOS-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/alm3ndr1t/Graduaatsproef/Minesweeper/build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/tools/eventsystem",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/alm3ndr1t/Graduaatsproef/Minesweeper/build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/tools/eventsystem",
+	"CMAKE_EXECUTABLE" : "/Users/alm3ndr1t/Qt/Tools/CMake/CMake.app/Contents/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/Users/alm3ndr1t/Graduaatsproef/Minesweeper/build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/tools/eventsystem/CMakeLists.txt",
+		"/Users/alm3ndr1t/Qt/6.6.3/macos/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
+		"/Users/alm3ndr1t/Qt/6.6.3/macos/lib/cmake/Qt6Qml/Qt6QmlPluginTemplate.cpp.in",
+		"/Users/alm3ndr1t/Qt/6.6.3/macos/lib/cmake/Qt6Qml/Qt6QmlModuleDirMappingTemplate.qrc.in",
+		"/Users/alm3ndr1t/Qt/6.6.3/macos/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
+		"/Users/alm3ndr1t/Qt/6.6.3/macos/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in"
+	],
+	"CMAKE_SOURCE_DIR" : "/Users/alm3ndr1t/Graduaatsproef/Minesweeper",
+	"DEP_FILE" : "/Users/alm3ndr1t/Graduaatsproef/Minesweeper/build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/tools/eventsystem/QuickStudioEventSystemplugin_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "QuickStudioEventSystemplugin_autogen/timestamp",
+	"HEADERS" : [],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/Users/alm3ndr1t/Graduaatsproef/Minesweeper/build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/tools/eventsystem/QuickStudioEventSystemplugin_autogen/include",
+	"MOC_COMPILATION_FILE" : "/Users/alm3ndr1t/Graduaatsproef/Minesweeper/build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/tools/eventsystem/QuickStudioEventSystemplugin_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_DEPRECATED_WARNINGS",
+		"QT_NETWORK_LIB",
+		"QT_PLUGIN",
+		"QT_QMLINTEGRATION_LIB",
+		"QT_QML_LIB",
+		"QT_STATICPLUGIN"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/Users/alm3ndr1t/Qt/6.6.3/macos/lib/QtQml.framework/Headers",
+		"/Users/alm3ndr1t/Qt/6.6.3/macos/lib/QtQml.framework",
+		"/Users/alm3ndr1t/Qt/6.6.3/macos/lib/QtCore.framework/Headers",
+		"/Users/alm3ndr1t/Qt/6.6.3/macos/lib/QtCore.framework",
+		"/Users/alm3ndr1t/Qt/6.6.3/macos/mkspecs/macx-clang",
+		"/Users/alm3ndr1t/Qt/6.6.3/macos/include",
+		"/Users/alm3ndr1t/Qt/6.6.3/macos/include/QtQmlIntegration",
+		"/Users/alm3ndr1t/Qt/6.6.3/macos/lib/QtNetwork.framework/Headers",
+		"/Users/alm3ndr1t/Qt/6.6.3/macos/lib/QtNetwork.framework",
+		"/usr/include",
+		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_GADGET_EXPORT"
+	],
+	"MOC_OPTIONS" : [ "-Muri=QtQuick.Studio.EventSystem" ],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+		"-dM",
+		"-E",
+		"-c",
+		"/Users/alm3ndr1t/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/Users/alm3ndr1t/Graduaatsproef/Minesweeper/build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/tools/eventsystem/QuickStudioEventSystemplugin_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"/Users/alm3ndr1t/Graduaatsproef/Minesweeper/build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/tools/eventsystem/.rcc/qrc_QuickStudioEventSystem_raw_qml_0.cpp",
+		"/Users/alm3ndr1t/Graduaatsproef/Minesweeper/build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/tools/eventsystem/.rcc/qrc_qmake_QtQuick_Studio_EventSystem.cpp",
+		"/Users/alm3ndr1t/Graduaatsproef/Minesweeper/build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/tools/eventsystem/QuickStudioEventSystem_autogen/mocs_compilation.cpp",
+		"/Users/alm3ndr1t/Graduaatsproef/Minesweeper/build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/tools/eventsystem/quickstudioeventsystem_qmltyperegistrations.cpp"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/Users/alm3ndr1t/Graduaatsproef/Minesweeper/build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystemplugin_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/Users/alm3ndr1t/Qt/6.6.3/macos/./libexec/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 6,
+	"SETTINGS_FILE" : "/Users/alm3ndr1t/Graduaatsproef/Minesweeper/build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/tools/eventsystem/CMakeFiles/QuickStudioEventSystemplugin_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/Users/alm3ndr1t/Graduaatsproef/Minesweeper/build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/tools/eventsystem/QuickStudioEventSystemplugin_QtQuick_Studio_EventSystemPlugin.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : 
+	[
+		"/Users/alm3ndr1t/Graduaatsproef/Minesweeper/build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/tools/eventsystem/.rcc/qrc_QuickStudioEventSystem_raw_qml_0.cpp",
+		"/Users/alm3ndr1t/Graduaatsproef/Minesweeper/build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/tools/eventsystem/.rcc/qrc_qmake_QtQuick_Studio_EventSystem.cpp",
+		"/Users/alm3ndr1t/Graduaatsproef/Minesweeper/build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/tools/eventsystem/QuickStudioEventSystem_autogen/mocs_compilation.cpp",
+		"/Users/alm3ndr1t/Graduaatsproef/Minesweeper/build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/tools/eventsystem/quickstudioeventsystem_qmltyperegistrations.cpp"
+	],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

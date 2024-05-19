@@ -1,0 +1,8 @@
+imports/Minesweeper/Minesweeper_qmlcache_autogen/timestamp: \
+  imports/Minesweeper/.rcc/qmlcache/Minesweeper_qmlcache_loader.cpp \
+  /Users/alm3ndr1t/Graduaatsproef/Minesweeper/imports/Minesweeper/CMakeLists.txt \
+  /Users/alm3ndr1t/Qt/6.6.3/macos/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in \
+  /Users/alm3ndr1t/Qt/6.6.3/macos/lib/cmake/Qt6Qml/Qt6QmlModuleDirMappingTemplate.qrc.in \
+  /Users/alm3ndr1t/Qt/6.6.3/macos/lib/cmake/Qt6Qml/Qt6QmlPluginTemplate.cpp.in \
+  /Users/alm3ndr1t/Qt/6.6.3/macos/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in \
+  /Users/alm3ndr1t/Qt/Tools/CMake/CMake.app/Contents/bin/cmake

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/Main/">
+    <file alias="main.qml">/Users/alm3ndr1t/Graduaatsproef/Minesweeper/main.qml</file>
+  </qresource>
+</RCC>
+

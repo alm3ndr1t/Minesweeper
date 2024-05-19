@@ -1,0 +1,9 @@
+--bare
+-I
+/Users/alm3ndr1t/Graduaatsproef/Minesweeper/build/Qt_6_6_3_for_macOS-Debug/qml
+-I
+/Users/alm3ndr1t/Graduaatsproef/Minesweeper/build/Qt_6_6_3_for_macOS-Debug/qml
+-I
+/Users/alm3ndr1t/Qt/6.6.3/macos/./qml
+--resource
+/Users/alm3ndr1t/Graduaatsproef/Minesweeper/build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/application/.rcc/qmake_QtQuick_Studio_Application.qrc

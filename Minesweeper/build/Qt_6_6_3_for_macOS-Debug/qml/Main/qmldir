@@ -1,0 +1,4 @@
+module Main
+typeinfo MinesweeperApp.qmltypes
+prefer :/qt/qml/Main/
+

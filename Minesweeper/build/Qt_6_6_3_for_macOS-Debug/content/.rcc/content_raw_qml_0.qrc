@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="/qt/qml/content/">
+    <file alias="App.qml">/Users/alm3ndr1t/Graduaatsproef/Minesweeper/content/App.qml</file>
+    <file alias="Screen01.ui.qml">/Users/alm3ndr1t/Graduaatsproef/Minesweeper/content/Screen01.ui.qml</file>
+    <file alias="fonts/fonts.txt">/Users/alm3ndr1t/Graduaatsproef/Minesweeper/content/fonts/fonts.txt</file>
+  </qresource>
+</RCC>
+

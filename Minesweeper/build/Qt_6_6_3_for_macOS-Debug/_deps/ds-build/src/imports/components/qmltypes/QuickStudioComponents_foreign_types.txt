@@ -1,0 +1,1 @@
+--foreign-types=/Users/alm3ndr1t/Qt/6.6.3/macos/./metatypes/qt6qml_relwithdebinfo_metatypes.json,/Users/alm3ndr1t/Qt/6.6.3/macos/./metatypes/qt6core_relwithdebinfo_metatypes.json,/Users/alm3ndr1t/Qt/6.6.3/macos/./metatypes/qt6network_relwithdebinfo_metatypes.json
