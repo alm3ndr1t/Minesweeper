@@ -1,5 +1,5 @@
-import QtQuick 2.15
-import QtQuick.Controls 2.15
+import QtQuick
+import QtQuick.Controls
 import content
 
 App {
@@ -212,14 +212,15 @@ App {
     }
 
     function restartGame() {
-        initializeBombs();
         cellRepeater.model = 0; // Reset the model to clear the grid
         cellRepeater.model = gridSize * gridSize; // Reassign the model to recreate the grid
+        bombCount = Math.min(gridSize * gridSize / 5, 20); // Reset bombCount
         bombCountText.text = "Bombs: " + bombCount;
         gameOverText.visible = false;
         gameEnded = false; // Reset the game status
         console.log("Game restarted");
     }
+
 
     function gameOver() {
         gameEnded = true; // Set the game status to ended
@@ -234,5 +235,8 @@ App {
         }
     }
 
-    Component.onCompleted: initializeBombs
+    Component.onCompleted: {
+        initializeBombs();
+        restartGame();
+    }
 }

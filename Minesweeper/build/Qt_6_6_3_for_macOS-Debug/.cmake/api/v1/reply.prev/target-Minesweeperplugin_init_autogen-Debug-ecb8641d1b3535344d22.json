@@ -1,0 +1,75 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"imports/Minesweeper/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "Minesweeperplugin_init_autogen_timestamp_deps::@ef9cfe86ebcf09be5025"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "QtInternalTargets"
+	},
+	"id" : "Minesweeperplugin_init_autogen::@ef9cfe86ebcf09be5025",
+	"isGeneratorProvided" : true,
+	"name" : "Minesweeperplugin_init_autogen",
+	"paths" : 
+	{
+		"build" : "imports/Minesweeper",
+		"source" : "imports/Minesweeper"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/imports/Minesweeper/CMakeFiles/Minesweeperplugin_init_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/imports/Minesweeper/CMakeFiles/Minesweeperplugin_init_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/imports/Minesweeper/Minesweeperplugin_init_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}
