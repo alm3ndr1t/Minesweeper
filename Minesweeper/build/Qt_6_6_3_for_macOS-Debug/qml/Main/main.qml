@@ -100,6 +100,7 @@ App {
         }
 
         Button {
+            id: restartButton
             text: "Restart"
             onClicked: {
                 console.log("Restart button clicked");
@@ -110,8 +111,14 @@ App {
             height: 50
             font.pixelSize: 16
             background: Rectangle {
-                color: "lightblue"
+                color: restartButton.pressed ? "white" : "yellow"
                 radius: 10
+            }
+
+            Behavior on background {
+                ColorAnimation {
+                    duration: 100
+                }
             }
         }
 

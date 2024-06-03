@@ -17,11 +17,11 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "Minesweeper_autogen_timestamp_deps::@ef9cfe86ebcf09be5025"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "Minesweeper_tooling::@ef9cfe86ebcf09be5025"
+		},
+		{
+			"id" : "Minesweeper_autogen_timestamp_deps::@ef9cfe86ebcf09be5025"
 		}
 	],
 	"folder" : 

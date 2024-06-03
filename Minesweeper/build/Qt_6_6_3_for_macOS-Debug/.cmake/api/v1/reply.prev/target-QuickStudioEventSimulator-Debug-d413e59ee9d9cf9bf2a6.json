@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "_deps/ds-build/src/imports/multitext/libQuickStudioMultiText.a"
+			"path" : "_deps/ds-build/src/imports/tools/eventsimulator/libQuickStudioEventSimulator.a"
 		}
 	],
 	"backtrace" : 4,
@@ -29,7 +29,7 @@
 		"files" : 
 		[
 			"/Users/alm3ndr1t/Qt/6.6.3/macos/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
-			"build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/multitext/CMakeLists.txt",
+			"build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/tools/eventsimulator/CMakeLists.txt",
 			"/Users/alm3ndr1t/Qt/6.6.3/macos/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake",
 			"/Users/alm3ndr1t/Qt/6.6.3/macos/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:742:EVAL"
 		],
@@ -41,7 +41,7 @@
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 1,
+				"line" : 5,
 				"parent" : 0
 			},
 			{
@@ -65,7 +65,7 @@
 			{
 				"command" : 6,
 				"file" : 1,
-				"line" : 2,
+				"line" : 6,
 				"parent" : 0
 			},
 			{
@@ -135,12 +135,6 @@
 				"parent" : 6
 			},
 			{
-				"command" : 10,
-				"file" : 2,
-				"line" : 2227,
-				"parent" : 6
-			},
-			{
 				"file" : 1,
 				"line" : -1,
 				"parent" : 0
@@ -149,19 +143,19 @@
 				"command" : 13,
 				"file" : 3,
 				"line" : 1,
-				"parent" : 18
+				"parent" : 17
 			},
 			{
 				"command" : 12,
 				"file" : 0,
 				"line" : 767,
-				"parent" : 19
+				"parent" : 18
 			},
 			{
 				"command" : 10,
 				"file" : 0,
 				"line" : 1881,
-				"parent" : 20
+				"parent" : 19
 			}
 		]
 	},
@@ -215,11 +209,11 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "/Users/alm3ndr1t/Graduaatsproef/Minesweeper/build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/multitext/QuickStudioMultiText_autogen/include"
+					"path" : "/Users/alm3ndr1t/Graduaatsproef/Minesweeper/build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/tools/eventsimulator/QuickStudioEventSimulator_autogen/include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/Users/alm3ndr1t/Graduaatsproef/Minesweeper/build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/multitext"
+					"path" : "/Users/alm3ndr1t/Graduaatsproef/Minesweeper/build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/tools/eventsimulator"
 				},
 				{
 					"backtrace" : 11,
@@ -288,23 +282,23 @@
 	[
 		{
 			"backtrace" : 7,
-			"id" : "QuickStudioMultiText_tooling::@a7b8d61f767e497853c2"
+			"id" : "QuickStudioEventSimulator_tooling::@639cba86296065e16922"
 		},
 		{
-			"id" : "QuickStudioMultiText_autogen_timestamp_deps::@a7b8d61f767e497853c2"
+			"id" : "QuickStudioEventSimulator_autogen_timestamp_deps::@639cba86296065e16922"
 		},
 		{
 			"backtrace" : 0,
-			"id" : "QuickStudioMultiText_autogen::@a7b8d61f767e497853c2"
+			"id" : "QuickStudioEventSimulator_autogen::@639cba86296065e16922"
 		}
 	],
-	"id" : "QuickStudioMultiText::@a7b8d61f767e497853c2",
-	"name" : "QuickStudioMultiText",
-	"nameOnDisk" : "libQuickStudioMultiText.a",
+	"id" : "QuickStudioEventSimulator::@639cba86296065e16922",
+	"name" : "QuickStudioEventSimulator",
+	"nameOnDisk" : "libQuickStudioEventSimulator.a",
 	"paths" : 
 	{
-		"build" : "_deps/ds-build/src/imports/multitext",
-		"source" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/multitext"
+		"build" : "_deps/ds-build/src/imports/tools/eventsimulator",
+		"source" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/tools/eventsimulator"
 	},
 	"sourceGroups" : 
 	[
@@ -327,20 +321,19 @@
 				6,
 				7,
 				8,
-				9,
+				13,
 				14,
-				15,
-				16
+				15
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
+				9,
 				10,
 				11,
-				12,
-				13
+				12
 			]
 		}
 	],
@@ -350,80 +343,75 @@
 			"backtrace" : 0,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/multitext/QuickStudioMultiText_autogen/mocs_compilation.cpp",
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/tools/eventsimulator/QuickStudioEventSimulator_autogen/mocs_compilation.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 13,
 			"isGenerated" : true,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/multitext/meta_types/qt6quickstudiomultitext_debug_metatypes.json.gen",
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/tools/eventsimulator/meta_types/qt6quickstudioeventsimulator_debug_metatypes.json.gen",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 14,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/multitext/quickstudiomultitext_qmltyperegistrations.cpp",
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/tools/eventsimulator/quickstudioeventsimulator_qmltyperegistrations.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 15,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/multitext/MultiTextElement.qml",
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/tools/eventsimulator/EventSimulator.qml",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 16,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/multitext/MultiTextItem.qml",
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/tools/eventsimulator/EventSimulatorDelegate.qml",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 17,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/multitext/MultiTextException.qml",
+			"backtrace" : 20,
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/tools/eventsimulator/.rcc/qmake_QtQuick_Studio_EventSimulator.qrc",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 21,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/multitext/.rcc/qmake_QtQuick_Studio_MultiText.qrc",
+			"backtrace" : 20,
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/qml/QtQuick/Studio/EventSimulator/qmldir",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 21,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/qml/QtQuick/Studio/MultiText/qmldir",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 21,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/multitext/.rcc/QuickStudioMultiText_raw_qml_0.qrc",
+			"backtrace" : 20,
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/tools/eventsimulator/.rcc/QuickStudioEventSimulator_raw_qml_0.qrc",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/multitext/QuickStudioMultiText_autogen/timestamp",
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/tools/eventsimulator/QuickStudioEventSimulator_autogen/timestamp",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/multitext/meta_types/qt6quickstudiomultitext_debug_metatypes.json.gen.rule",
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/tools/eventsimulator/meta_types/qt6quickstudioeventsimulator_debug_metatypes.json.gen.rule",
 			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/multitext/quickstudiomultitext_qmltyperegistrations.cpp.rule",
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/tools/eventsimulator/quickstudioeventsimulator_qmltyperegistrations.cpp.rule",
 			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/multitext/QuickStudioMultiText_autogen/timestamp.rule",
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/tools/eventsimulator/QuickStudioEventSimulator_autogen/timestamp.rule",
 			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/multitext/meta_types/QuickStudioMultiText_json_file_list.txt.rule",
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/tools/eventsimulator/meta_types/QuickStudioEventSimulator_json_file_list.txt.rule",
 			"sourceGroupIndex" : 2
 		},
 		{

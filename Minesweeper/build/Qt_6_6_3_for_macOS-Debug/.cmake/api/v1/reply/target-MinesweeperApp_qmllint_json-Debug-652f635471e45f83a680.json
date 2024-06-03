@@ -1,14 +1,14 @@
 {
-	"backtrace" : 5,
+	"backtrace" : 6,
 	"backtraceGraph" : 
 	{
 		"commands" : 
 		[
-			"add_library",
+			"add_custom_target",
+			"_qt_internal_target_enable_qmllint",
 			"qt6_target_qml_sources",
 			"qt6_add_qml_module",
-			"include",
-			"target_sources"
+			"include"
 		],
 		"files" : 
 		[
@@ -22,9 +22,9 @@
 				"file" : 2
 			},
 			{
-				"command" : 3,
+				"command" : 4,
 				"file" : 2,
-				"line" : 46,
+				"line" : 47,
 				"parent" : 0
 			},
 			{
@@ -32,37 +32,43 @@
 				"parent" : 1
 			},
 			{
-				"command" : 2,
+				"command" : 3,
 				"file" : 1,
 				"line" : 4,
 				"parent" : 2
 			},
 			{
-				"command" : 1,
+				"command" : 2,
 				"file" : 0,
 				"line" : 633,
 				"parent" : 3
 			},
 			{
-				"command" : 0,
+				"command" : 1,
 				"file" : 0,
-				"line" : 2443,
+				"line" : 2245,
 				"parent" : 4
 			},
 			{
-				"command" : 4,
+				"command" : 0,
 				"file" : 0,
-				"line" : 2446,
-				"parent" : 4
+				"line" : 898,
+				"parent" : 5
 			}
 		]
 	},
+	"dependencies" : 
+	[
+		{
+			"id" : "all_qmltyperegistrations::@b8ea75ca72e9d0096cda"
+		}
+	],
 	"folder" : 
 	{
-		"name" : "QtInternalTargets"
+		"name" : "QmlLinter"
 	},
-	"id" : "MinesweeperApp_tooling::@6890427a1f51a3e7e1df",
-	"name" : "MinesweeperApp_tooling",
+	"id" : "MinesweeperApp_qmllint_json::@6890427a1f51a3e7e1df",
+	"name" : "MinesweeperApp_qmllint_json",
 	"paths" : 
 	{
 		"build" : ".",
@@ -90,15 +96,15 @@
 		{
 			"backtrace" : 6,
 			"isGenerated" : true,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/qml/Main/main.qml",
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/CMakeFiles/MinesweeperApp_qmllint_json",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/qml/Main/main.qml.rule",
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/CMakeFiles/MinesweeperApp_qmllint_json.rule",
 			"sourceGroupIndex" : 1
 		}
 	],
-	"type" : "INTERFACE_LIBRARY"
+	"type" : "UTILITY"
 }

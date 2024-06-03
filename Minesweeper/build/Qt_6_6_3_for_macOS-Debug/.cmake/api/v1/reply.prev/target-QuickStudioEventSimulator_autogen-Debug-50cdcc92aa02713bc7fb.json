@@ -17,11 +17,11 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "QuickStudioEventSimulator_autogen_timestamp_deps::@639cba86296065e16922"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "QuickStudioEventSimulator_tooling::@639cba86296065e16922"
+		},
+		{
+			"id" : "QuickStudioEventSimulator_autogen_timestamp_deps::@639cba86296065e16922"
 		}
 	],
 	"folder" : 

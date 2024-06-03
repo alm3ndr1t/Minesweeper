@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "_deps/ds-build/src/imports/flowview/libFlowView.a"
+			"path" : "_deps/ds-build/src/imports/logichelper/libQuickStudioLogicHelper.a"
 		}
 	],
 	"backtrace" : 4,
@@ -29,9 +29,9 @@
 		"files" : 
 		[
 			"/Users/alm3ndr1t/Qt/6.6.3/macos/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
-			"build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/flowview/CMakeLists.txt",
+			"build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/logichelper/CMakeLists.txt",
 			"/Users/alm3ndr1t/Qt/6.6.3/macos/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake",
-			"/Users/alm3ndr1t/Qt/6.6.3/macos/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:2341:EVAL"
+			"/Users/alm3ndr1t/Qt/6.6.3/macos/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:742:EVAL"
 		],
 		"nodes" : 
 		[
@@ -41,7 +41,7 @@
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 5,
+				"line" : 1,
 				"parent" : 0
 			},
 			{
@@ -65,7 +65,7 @@
 			{
 				"command" : 6,
 				"file" : 1,
-				"line" : 6,
+				"line" : 2,
 				"parent" : 0
 			},
 			{
@@ -131,7 +131,7 @@
 			{
 				"command" : 10,
 				"file" : 2,
-				"line" : 2227,
+				"line" : 2380,
 				"parent" : 6
 			},
 			{
@@ -143,7 +143,7 @@
 			{
 				"command" : 10,
 				"file" : 2,
-				"line" : 2227,
+				"line" : 2380,
 				"parent" : 6
 			},
 			{
@@ -155,7 +155,7 @@
 			{
 				"command" : 10,
 				"file" : 2,
-				"line" : 2227,
+				"line" : 2380,
 				"parent" : 6
 			},
 			{
@@ -167,7 +167,7 @@
 			{
 				"command" : 10,
 				"file" : 2,
-				"line" : 2227,
+				"line" : 2380,
 				"parent" : 6
 			},
 			{
@@ -179,7 +179,7 @@
 			{
 				"command" : 10,
 				"file" : 2,
-				"line" : 2227,
+				"line" : 2380,
 				"parent" : 6
 			},
 			{
@@ -191,7 +191,7 @@
 			{
 				"command" : 10,
 				"file" : 2,
-				"line" : 2227,
+				"line" : 2380,
 				"parent" : 6
 			},
 			{
@@ -203,61 +203,7 @@
 			{
 				"command" : 10,
 				"file" : 2,
-				"line" : 2227,
-				"parent" : 6
-			},
-			{
-				"command" : 10,
-				"file" : 2,
-				"line" : 2227,
-				"parent" : 6
-			},
-			{
-				"command" : 10,
-				"file" : 2,
-				"line" : 2227,
-				"parent" : 6
-			},
-			{
-				"command" : 10,
-				"file" : 2,
-				"line" : 2227,
-				"parent" : 6
-			},
-			{
-				"command" : 10,
-				"file" : 2,
-				"line" : 2227,
-				"parent" : 6
-			},
-			{
-				"command" : 10,
-				"file" : 2,
-				"line" : 2227,
-				"parent" : 6
-			},
-			{
-				"command" : 10,
-				"file" : 2,
-				"line" : 2227,
-				"parent" : 6
-			},
-			{
-				"command" : 10,
-				"file" : 2,
-				"line" : 2227,
-				"parent" : 6
-			},
-			{
-				"command" : 10,
-				"file" : 2,
-				"line" : 2227,
-				"parent" : 6
-			},
-			{
-				"command" : 10,
-				"file" : 2,
-				"line" : 2227,
+				"line" : 2380,
 				"parent" : 6
 			},
 			{
@@ -269,19 +215,19 @@
 				"command" : 13,
 				"file" : 3,
 				"line" : 1,
-				"parent" : 38
+				"parent" : 29
 			},
 			{
 				"command" : 12,
 				"file" : 0,
 				"line" : 767,
-				"parent" : 39
+				"parent" : 30
 			},
 			{
 				"command" : 10,
 				"file" : 0,
 				"line" : 1881,
-				"parent" : 40
+				"parent" : 31
 			}
 		]
 	},
@@ -335,11 +281,11 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "/Users/alm3ndr1t/Graduaatsproef/Minesweeper/build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/flowview/FlowView_autogen/include"
+					"path" : "/Users/alm3ndr1t/Graduaatsproef/Minesweeper/build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/logichelper/QuickStudioLogicHelper_autogen/include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/Users/alm3ndr1t/Graduaatsproef/Minesweeper/build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/flowview"
+					"path" : "/Users/alm3ndr1t/Graduaatsproef/Minesweeper/build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/logichelper"
 				},
 				{
 					"backtrace" : 11,
@@ -400,31 +346,38 @@
 			"sourceIndexes" : 
 			[
 				0,
-				2
+				2,
+				4,
+				6,
+				8,
+				10,
+				12,
+				14,
+				16
 			]
 		}
 	],
 	"dependencies" : 
 	[
 		{
-			"id" : "FlowView_autogen_timestamp_deps::@f99fd1e4b9fa497fd232"
+			"backtrace" : 7,
+			"id" : "QuickStudioLogicHelper_tooling::@a133c4daf6f4e56b78b8"
+		},
+		{
+			"id" : "QuickStudioLogicHelper_autogen_timestamp_deps::@a133c4daf6f4e56b78b8"
 		},
 		{
 			"backtrace" : 0,
-			"id" : "FlowView_autogen::@f99fd1e4b9fa497fd232"
-		},
-		{
-			"backtrace" : 7,
-			"id" : "FlowView_tooling::@f99fd1e4b9fa497fd232"
+			"id" : "QuickStudioLogicHelper_autogen::@a133c4daf6f4e56b78b8"
 		}
 	],
-	"id" : "FlowView::@f99fd1e4b9fa497fd232",
-	"name" : "FlowView",
-	"nameOnDisk" : "libFlowView.a",
+	"id" : "QuickStudioLogicHelper::@a133c4daf6f4e56b78b8",
+	"name" : "QuickStudioLogicHelper",
+	"nameOnDisk" : "libQuickStudioLogicHelper.a",
 	"paths" : 
 	{
-		"build" : "_deps/ds-build/src/imports/flowview",
-		"source" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/flowview"
+		"build" : "_deps/ds-build/src/imports/logichelper",
+		"source" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/logichelper"
 	},
 	"sourceGroups" : 
 	[
@@ -433,7 +386,14 @@
 			"sourceIndexes" : 
 			[
 				0,
-				2
+				2,
+				4,
+				6,
+				8,
+				10,
+				12,
+				14,
+				16
 			]
 		},
 		{
@@ -442,23 +402,25 @@
 			[
 				1,
 				3,
-				4,
 				5,
-				6,
 				7,
-				8,
 				9,
-				10,
 				11,
-				12,
 				13,
-				14,
 				15,
-				16,
 				17,
 				18,
 				19,
 				20,
+				32,
+				33,
+				34
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
 				21,
 				22,
 				23,
@@ -467,19 +429,9 @@
 				26,
 				27,
 				28,
-				33,
-				34,
-				35
-			]
-		},
-		{
-			"name" : "CMake Rules",
-			"sourceIndexes" : 
-			[
 				29,
 				30,
-				31,
-				32
+				31
 			]
 		}
 	],
@@ -489,175 +441,191 @@
 			"backtrace" : 0,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/flowview/FlowView_autogen/mocs_compilation.cpp",
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/logichelper/QuickStudioLogicHelper_autogen/mocs_compilation.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 13,
 			"isGenerated" : true,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/flowview/meta_types/qt6flowview_debug_metatypes.json.gen",
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/logichelper/meta_types/qt6quickstudiologichelper_debug_metatypes.json.gen",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 14,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/flowview/flowview_qmltyperegistrations.cpp",
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/logichelper/quickstudiologichelper_qmltyperegistrations.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 15,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/flowview/DefaultFlowEffect.qml",
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/logichelper/BidirectionalBinding.qml",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 16,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/flowview/SwipeInteraction.qml",
-			"sourceGroupIndex" : 1
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/logichelper/.rcc/qmlcache/QuickStudioLogicHelper_BidirectionalBinding_qml.cpp",
+			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 17,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/flowview/FlowEffect.qml",
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/logichelper/RangeMapper.qml",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 18,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/flowview/FlowFadeEffect.qml",
-			"sourceGroupIndex" : 1
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/logichelper/.rcc/qmlcache/QuickStudioLogicHelper_RangeMapper_qml.cpp",
+			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 19,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/flowview/FlowPushLeftEffect.qml",
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/logichelper/MinMaxMapper.qml",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 20,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/flowview/FlowPushRightEffect.qml",
-			"sourceGroupIndex" : 1
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/logichelper/.rcc/qmlcache/QuickStudioLogicHelper_MinMaxMapper_qml.cpp",
+			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 21,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/flowview/FlowSlideDownEffect.qml",
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/logichelper/StringMapper.qml",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 22,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/flowview/FlowSlideLeftEffect.qml",
-			"sourceGroupIndex" : 1
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/logichelper/.rcc/qmlcache/QuickStudioLogicHelper_StringMapper_qml.cpp",
+			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 23,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/flowview/FlowSlideRightEffect.qml",
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/logichelper/OrOperator.qml",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 24,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/flowview/FlowSlideUpEffect.qml",
-			"sourceGroupIndex" : 1
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/logichelper/.rcc/qmlcache/QuickStudioLogicHelper_OrOperator_qml.cpp",
+			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 25,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/flowview/FlowMoveEffect.qml",
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/logichelper/AndOperator.qml",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 26,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/flowview/FlowPushEffect.qml",
-			"sourceGroupIndex" : 1
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/logichelper/.rcc/qmlcache/QuickStudioLogicHelper_AndOperator_qml.cpp",
+			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 27,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/flowview/FlowTransition.qml",
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/logichelper/NotOperator.qml",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 28,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/flowview/FlowTransitionList.qml",
-			"sourceGroupIndex" : 1
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/logichelper/.rcc/qmlcache/QuickStudioLogicHelper_NotOperator_qml.cpp",
+			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 29,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/flowview/FlowView.qml",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 30,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/flowview/FlowPushUpEffect.qml",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 31,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/flowview/FlowItem.qml",
+			"backtrace" : 32,
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/logichelper/.rcc/qmake_QtQuick_Studio_LogicHelper.qrc",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 32,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/flowview/FlowDecision.qml",
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/qml/QtQuick/Studio/LogicHelper/qmldir",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 33,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/flowview/FlowWildcard.qml",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 34,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/flowview/FlowActionArea.qml",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 35,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/flowview/FlowState.qml",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 36,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/flowview/+DesignMode/FlowItem.qml",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 37,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/flowview/+DesignMode/FlowView.qml",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 41,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/flowview/.rcc/FlowView_raw_qml_0.qrc",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 41,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-src/src/imports/flowview/qmldir",
+			"backtrace" : 32,
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/logichelper/.rcc/QuickStudioLogicHelper_raw_qml_0.qrc",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/flowview/FlowView_autogen/timestamp",
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/logichelper/QuickStudioLogicHelper_autogen/timestamp",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/flowview/meta_types/qt6flowview_debug_metatypes.json.gen.rule",
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/logichelper/meta_types/qt6quickstudiologichelper_debug_metatypes.json.gen.rule",
 			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/flowview/flowview_qmltyperegistrations.cpp.rule",
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/logichelper/quickstudiologichelper_qmltyperegistrations.cpp.rule",
 			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/flowview/FlowView_autogen/timestamp.rule",
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/logichelper/.rcc/qmlcache/QuickStudioLogicHelper_BidirectionalBinding_qml.cpp.rule",
 			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/flowview/meta_types/FlowView_json_file_list.txt.rule",
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/logichelper/.rcc/qmlcache/QuickStudioLogicHelper_RangeMapper_qml.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/logichelper/.rcc/qmlcache/QuickStudioLogicHelper_MinMaxMapper_qml.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/logichelper/.rcc/qmlcache/QuickStudioLogicHelper_StringMapper_qml.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/logichelper/.rcc/qmlcache/QuickStudioLogicHelper_OrOperator_qml.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/logichelper/.rcc/qmlcache/QuickStudioLogicHelper_AndOperator_qml.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/logichelper/.rcc/qmlcache/QuickStudioLogicHelper_NotOperator_qml.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/logichelper/QuickStudioLogicHelper_autogen/timestamp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/_deps/ds-build/src/imports/logichelper/meta_types/QuickStudioLogicHelper_json_file_list.txt.rule",
 			"sourceGroupIndex" : 2
 		},
 		{

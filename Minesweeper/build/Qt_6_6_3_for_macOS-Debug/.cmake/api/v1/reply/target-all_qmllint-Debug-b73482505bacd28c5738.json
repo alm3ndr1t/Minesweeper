@@ -50,7 +50,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 956,
+				"line" : 952,
 				"parent" : 3
 			},
 			{
@@ -65,7 +65,7 @@
 			{
 				"command" : 6,
 				"file" : 3,
-				"line" : 46,
+				"line" : 47,
 				"parent" : 6
 			},
 			{
@@ -93,7 +93,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 956,
+				"line" : 952,
 				"parent" : 11
 			},
 			{
@@ -132,7 +132,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 956,
+				"line" : 952,
 				"parent" : 18
 			},
 			{
@@ -165,7 +165,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 956,
+				"line" : 952,
 				"parent" : 24
 			},
 			{
@@ -198,7 +198,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 956,
+				"line" : 952,
 				"parent" : 30
 			},
 			{
@@ -231,7 +231,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 956,
+				"line" : 952,
 				"parent" : 36
 			},
 			{
@@ -264,7 +264,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 956,
+				"line" : 952,
 				"parent" : 42
 			},
 			{
@@ -279,39 +279,39 @@
 	[
 		{
 			"backtrace" : 13,
-			"id" : "MinesweeperApp_qmllint_module::@6890427a1f51a3e7e1df"
+			"id" : "MinesweeperApp_qmllint::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 14,
-			"id" : "QuickStudioComponents_qmllint_module::@b8ea75ca72e9d0096cda"
+			"id" : "QuickStudioComponents_qmllint::@b8ea75ca72e9d0096cda"
 		},
 		{
 			"backtrace" : 20,
-			"id" : "QuickStudioLogicHelper_qmllint_module::@a133c4daf6f4e56b78b8"
+			"id" : "QuickStudioLogicHelper_qmllint::@a133c4daf6f4e56b78b8"
 		},
 		{
 			"backtrace" : 26,
-			"id" : "QuickStudioApplication_qmllint_module::@a324641c06033e250fc2"
+			"id" : "QuickStudioApplication_qmllint::@a324641c06033e250fc2"
 		},
 		{
 			"backtrace" : 32,
-			"id" : "QuickStudioUtils_qmllint_module::@4bd307a73a027a216fab"
+			"id" : "QuickStudioUtils_qmllint::@4bd307a73a027a216fab"
 		},
 		{
 			"backtrace" : 38,
-			"id" : "content_qmllint_module::@73a38b9e525c9c2ae262"
+			"id" : "content_qmllint::@73a38b9e525c9c2ae262"
 		},
 		{
 			"backtrace" : 44,
-			"id" : "Minesweeper_qmllint_module::@ef9cfe86ebcf09be5025"
+			"id" : "Minesweeper_qmllint::@ef9cfe86ebcf09be5025"
 		}
 	],
 	"folder" : 
 	{
 		"name" : "QmlLinter"
 	},
-	"id" : "all_qmllint_module::@b8ea75ca72e9d0096cda",
-	"name" : "all_qmllint_module",
+	"id" : "all_qmllint::@b8ea75ca72e9d0096cda",
+	"name" : "all_qmllint",
 	"paths" : 
 	{
 		"build" : "_deps/ds-build/src/imports/components",

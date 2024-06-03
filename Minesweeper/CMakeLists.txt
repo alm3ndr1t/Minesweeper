@@ -14,6 +14,7 @@ if (Qt6_VERSION VERSION_GREATER_EQUAL 6.3)
 endif()
 
 qt_add_executable(MinesweeperApp src/main.cpp
+    main.qrc
 
 
 

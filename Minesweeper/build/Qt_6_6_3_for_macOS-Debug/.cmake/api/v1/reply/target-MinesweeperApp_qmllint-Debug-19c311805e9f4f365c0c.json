@@ -24,7 +24,7 @@
 			{
 				"command" : 4,
 				"file" : 2,
-				"line" : 46,
+				"line" : 47,
 				"parent" : 0
 			},
 			{
@@ -52,7 +52,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 936,
+				"line" : 871,
 				"parent" : 5
 			}
 		]
@@ -67,8 +67,8 @@
 	{
 		"name" : "QmlLinter"
 	},
-	"id" : "MinesweeperApp_qmllint_module::@6890427a1f51a3e7e1df",
-	"name" : "MinesweeperApp_qmllint_module",
+	"id" : "MinesweeperApp_qmllint::@6890427a1f51a3e7e1df",
+	"name" : "MinesweeperApp_qmllint",
 	"paths" : 
 	{
 		"build" : ".",
@@ -96,13 +96,13 @@
 		{
 			"backtrace" : 6,
 			"isGenerated" : true,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/CMakeFiles/MinesweeperApp_qmllint_module",
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/CMakeFiles/MinesweeperApp_qmllint",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Qt_6_6_3_for_macOS-Debug/CMakeFiles/MinesweeperApp_qmllint_module.rule",
+			"path" : "build/Qt_6_6_3_for_macOS-Debug/CMakeFiles/MinesweeperApp_qmllint.rule",
 			"sourceGroupIndex" : 1
 		}
 	],
