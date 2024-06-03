@@ -1,8 +1,7 @@
 import QtQuick
 import QtQuick.Controls
-import content
 
-App {
+ApplicationWindow {
     visible: true
     width: 600
     height: 700
@@ -16,21 +15,23 @@ App {
     function initializeBombs() {
         bombPositions = [];
         var bombCount = 0;
+        var maxBombIndex = gridSize * gridSize;
+
         while (bombCount < this.bombCount) {
-            var x = Math.floor(Math.random() * gridSize);
-            var y = Math.floor(Math.random() * gridSize);
-            var hasBomb = false;
-            for (var i = 0; i < bombPositions.length; i++) {
-                if (bombPositions[i].x === x && bombPositions[i].y === y) {
-                    hasBomb = true;
-                    break;
-                }
-            }
-            if (!hasBomb) {
+            var randomIndex = Math.floor(Math.random() * maxBombIndex);
+            var x = randomIndex % gridSize;
+            var y = Math.floor(randomIndex / gridSize);
+
+            var isDuplicate = bombPositions.some(function(position) {
+                return position.x === x && position.y === y;
+            });
+
+            if (!isDuplicate) {
                 bombPositions.push({x: x, y: y});
                 bombCount++;
             }
         }
+
         console.log("Bombs initialized:", bombPositions);
     }
 
@@ -145,7 +146,6 @@ App {
                         width: 400 / gridSize
                         height: 400 / gridSize
                         border.color: "black"
-                        color: "lightgray"
                         radius: 5
 
                         property bool hasBomb: false
@@ -161,6 +161,27 @@ App {
                             }
                         }
 
+                        Image {
+                            id: tileImage
+                            anchors.fill: parent
+                            source: "qrc:/images/tiles.jpg"
+                            sourceClipRect: {
+                                var tileSize = 32; // Assuming each tile in tiles.png is 32x32
+                                if (parent.revealed) {
+                                    if (parent.hasBomb) {
+                                        return Qt.rect(tileSize * 9, 0, tileSize, tileSize); // Bomb tile
+                                    } else {
+                                        var nearbyBombCount = countNearbyBombs(index % gridSize, Math.floor(index / gridSize));
+                                        return Qt.rect(tileSize * nearbyBombCount, 0, tileSize, tileSize); // Number tile
+                                    }
+                                } else if (parent.flagged) {
+                                    return Qt.rect(tileSize * 11, 0, tileSize, tileSize); // Flagged tile
+                                } else {
+                                    return Qt.rect(tileSize * 10, 0, tileSize, tileSize); // Unrevealed tile
+                                }
+                            }
+                        }
+
                         MouseArea {
                             anchors.fill: parent
                             onClicked: function(event) {
@@ -168,36 +189,24 @@ App {
                                 if (!parent.revealed) {
                                     if (event.button === Qt.RightButton) {
                                         parent.flagged = !parent.flagged;
-                                        parent.color = parent.flagged ? "yellow" : "lightgray";
                                         console.log("Cell flagged:", index, "Flagged:", parent.flagged);
                                     } else {
-                                        parent.color = "white";
                                         parent.revealed = true;
                                         console.log("Cell clicked:", index, "Has bomb:", parent.hasBomb);
 
                                         if (!parent.hasBomb) {
                                             var nearbyBombCount = countNearbyBombs(index % gridSize, Math.floor(index / gridSize));
                                             if (nearbyBombCount > 0) {
-                                                textItem.text = nearbyBombCount.toString();
-                                                textItem.visible = true;
+                                                tileImage.sourceRect = Qt.rect(nearbyBombCount * 32, 0, 32, 32);
                                             } else {
                                                 revealEmptyCells(index % gridSize, Math.floor(index / gridSize));
                                             }
                                         } else {
-                                            textItem.visible = true;
                                             gameOver();
                                         }
                                     }
                                 }
                             }
-                        }
-
-                        Text {
-                            id: textItem
-                            anchors.centerIn: parent
-                            text: parent.flagged ? "F" : (parent.hasBomb ? "B" : "")
-                            color: parent.flagged ? "green" : (parent.hasBomb ? "red" : "black")
-                            visible: false
                         }
                     }
                 }
@@ -233,18 +242,14 @@ App {
     function revealEmptyCells(cellX, cellY) {
         for (var i = Math.max(0, cellX - 1); i <= Math.min(gridSize - 1, cellX + 1); i++) {
             for (var j = Math.max(0, cellY - 1); j <= Math.min(gridSize - 1, cellY + 1); j++) {
-                if (i !== cellX || j !== cellY
-                        ) {
+                if (i !== cellX || j !== cellY) {
                     var cellIndex = i + j * gridSize;
                     var cell = cellRepeater.itemAt(cellIndex);
-                    if (cell && !cell
-                            .revealed && !cell.hasBomb) {
+                    if (cell && !cell.revealed && !cell.hasBomb) {
                         cell.revealed = true;
-                        cell.color = "white";
                         var nearbyBombCount = countNearbyBombs(i, j);
                         if (nearbyBombCount > 0) {
-                            cell.getChildAt(0).text = nearbyBombCount.toString();
-                            cell.getChildAt(0).visible = true;
+                            cell.getChildAt(0).sourceRect = Qt.rect(nearbyBombCount * 32, 0, 32, 32);
                         } else {
                             revealEmptyCells(i, j);
                         }
@@ -255,6 +260,7 @@ App {
     }
 
     function restartGame() {
+        initializeBombs(); // Regenerate bomb positions
         cellRepeater.model = 0;
         cellRepeater.model = gridSize * gridSize;
         bombCountSlider.value = bombCount; // Reset the bombCountSlider
@@ -267,20 +273,21 @@ App {
         gameEnded = true;
         gameOverText.visible = true;
         console.log("Game over");
+
+        var rows = Math.floor(cellRepeater.count / gridSize);
+
         for (var i = 0; i < cellRepeater.count; i++) {
             var cell = cellRepeater.itemAt(i);
-            if (cell.hasBomb) {
-                cell.color = "red";
-                cell.revealed = true;
-            }
-        }
-    }
+            cell.revealed = true;
 
-    function cellColor() {
-        if (gameEnded) {
-            return "gray"; // Change color of cells when the game is over
-        } else {
-            return "lightgray"; // Default color for cells
+            if (cell.hasBomb) {
+                cell.getChildAt(0).sourceClipRect = Qt.rect(9 * 32, 0, 32, 32); // Bomb tile
+            } else {
+                var x = i % gridSize;
+                var y = Math.floor(i / gridSize);
+                var nearbyBombCount = countNearbyBombs(x, y);
+                cell.getChildAt(0).sourceClipRect = Qt.rect(nearbyBombCount * 32, 0, 32, 32); // Number tile
+            }
         }
     }
 

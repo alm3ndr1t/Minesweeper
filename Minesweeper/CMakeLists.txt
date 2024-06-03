@@ -6,6 +6,8 @@ option(BUILD_QDS_COMPONENTS "Build design studio components" ON)
 project(MinesweeperApp LANGUAGES CXX)
 
 set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTORCC ON)
+
 
 find_package(Qt6 6.2 REQUIRED COMPONENTS Core Gui Qml Quick)
 
@@ -15,10 +17,6 @@ endif()
 
 qt_add_executable(MinesweeperApp src/main.cpp
     main.qrc
-
-
-
-
 )
 
 qt_add_resources(MinesweeperApp "configuration"

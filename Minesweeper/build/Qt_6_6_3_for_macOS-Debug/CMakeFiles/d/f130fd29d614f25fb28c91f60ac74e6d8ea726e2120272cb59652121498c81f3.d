@@ -5,6 +5,7 @@ MinesweeperApp_autogen/timestamp: \
   CMakeFiles/3.27.7/CMakeCXXCompiler.cmake \
   CMakeFiles/3.27.7/CMakeSystem.cmake \
   /Users/alm3ndr1t/Graduaatsproef/Minesweeper/insight \
+  /Users/alm3ndr1t/Graduaatsproef/Minesweeper/main.qrc \
   /Users/alm3ndr1t/Graduaatsproef/Minesweeper/qmlcomponents \
   /Users/alm3ndr1t/Graduaatsproef/Minesweeper/qmlmodules \
   /Users/alm3ndr1t/Graduaatsproef/Minesweeper/src/main.cpp \

@@ -791,124 +791,7 @@ void wrapCall(const QQmlPrivate::AOTCompiledContext *aotContext, void *dataPtr, 
 }
 extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
 extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[] = {
-{ 0, QMetaType::fromType<double>(), {  }, 
-    [](const QQmlPrivate::AOTCompiledContext *context, void *data, void **argv) {
-        wrapCall(context, data, argv, [](const QQmlPrivate::AOTCompiledContext *aotContext, void **argumentsPtr) {
-Q_UNUSED(aotContext)
-Q_UNUSED(argumentsPtr)
-// expression for width at line 14, column 5
-double r2_1;
-QObject *r2_0;
-// generate_LoadQmlContextPropertyLookup
-#ifndef QT_NO_DEBUG
-aotContext->setInstructionPointer(2);
-#endif
-while (!aotContext->loadSingletonLookup(0, &r2_0)) {
-#ifdef QT_NO_DEBUG
-aotContext->setInstructionPointer(2);
-#endif
-aotContext->initLoadSingletonLookup(0, QQmlPrivate::AOTCompiledContext::InvalidStringId);
-if (aotContext->engine->hasError())
-    return double();
-}
-// generate_GetLookup
-{
-int retrieved;
-#ifndef QT_NO_DEBUG
-aotContext->setInstructionPointer(4);
-#endif
-while (!aotContext->getObjectLookup(1, r2_0, &retrieved)) {
-#ifdef QT_NO_DEBUG
-aotContext->setInstructionPointer(4);
-#endif
-aotContext->initGetObjectLookup(1, r2_0, QMetaType::fromType<int>());
-if (aotContext->engine->hasError())
-    return double();
-}
-r2_1 = double(retrieved);
-}
-// generate_Ret
-return r2_1;
-});}
- },{ 1, QMetaType::fromType<double>(), {  }, 
-    [](const QQmlPrivate::AOTCompiledContext *context, void *data, void **argv) {
-        wrapCall(context, data, argv, [](const QQmlPrivate::AOTCompiledContext *aotContext, void **argumentsPtr) {
-Q_UNUSED(aotContext)
-Q_UNUSED(argumentsPtr)
-// expression for height at line 15, column 5
-double r2_1;
-QObject *r2_0;
-// generate_LoadQmlContextPropertyLookup
-#ifndef QT_NO_DEBUG
-aotContext->setInstructionPointer(2);
-#endif
-while (!aotContext->loadSingletonLookup(2, &r2_0)) {
-#ifdef QT_NO_DEBUG
-aotContext->setInstructionPointer(2);
-#endif
-aotContext->initLoadSingletonLookup(2, QQmlPrivate::AOTCompiledContext::InvalidStringId);
-if (aotContext->engine->hasError())
-    return double();
-}
-// generate_GetLookup
-{
-int retrieved;
-#ifndef QT_NO_DEBUG
-aotContext->setInstructionPointer(4);
-#endif
-while (!aotContext->getObjectLookup(3, r2_0, &retrieved)) {
-#ifdef QT_NO_DEBUG
-aotContext->setInstructionPointer(4);
-#endif
-aotContext->initGetObjectLookup(3, r2_0, QMetaType::fromType<int>());
-if (aotContext->engine->hasError())
-    return double();
-}
-r2_1 = double(retrieved);
-}
-// generate_Ret
-return r2_1;
-});}
- },{ 2, QMetaType::fromType<QVariant>(), {  }, 
-    [](const QQmlPrivate::AOTCompiledContext *context, void *data, void **argv) {
-        wrapCall(context, data, argv, [](const QQmlPrivate::AOTCompiledContext *aotContext, void **argumentsPtr) {
-Q_UNUSED(aotContext)
-Q_UNUSED(argumentsPtr)
-// expression for color at line 17, column 5
-QObject *r2_0;
-QVariant r2_1;
-// generate_LoadQmlContextPropertyLookup
-#ifndef QT_NO_DEBUG
-aotContext->setInstructionPointer(2);
-#endif
-while (!aotContext->loadSingletonLookup(4, &r2_0)) {
-#ifdef QT_NO_DEBUG
-aotContext->setInstructionPointer(2);
-#endif
-aotContext->initLoadSingletonLookup(4, QQmlPrivate::AOTCompiledContext::InvalidStringId);
-if (aotContext->engine->hasError())
-    return QVariant();
-}
-// generate_GetLookup
-#ifndef QT_NO_DEBUG
-aotContext->setInstructionPointer(4);
-#endif
-r2_1 = QVariant(aotContext->lookupResultMetaType(5));
-while (!aotContext->getObjectLookup(5, r2_0, r2_1.data())) {
-#ifdef QT_NO_DEBUG
-aotContext->setInstructionPointer(4);
-#endif
-aotContext->initGetObjectLookup(5, r2_0, r2_1.metaType());
-if (aotContext->engine->hasError())
-    return QVariant();
-r2_1 = QVariant(aotContext->lookupResultMetaType(5));
-}
-// generate_Ret
-if (!r2_1.isValid())
-    aotContext->setReturnValueUndefined();
-return r2_1;
-});}
- },{ 8, QMetaType::fromType<QVariant>(), {  }, 
+{ 8, QMetaType::fromType<QVariant>(), {  }, 
     [](const QQmlPrivate::AOTCompiledContext *context, void *data, void **argv) {
         wrapCall(context, data, argv, [](const QQmlPrivate::AOTCompiledContext *aotContext, void **argumentsPtr) {
 Q_UNUSED(aotContext)
@@ -947,56 +830,6 @@ if (!r2_1.isValid())
     aotContext->setReturnValueUndefined();
 return r2_1;
 });}
- },{ 9, QMetaType::fromType<QString>(), {  }, 
-    [](const QQmlPrivate::AOTCompiledContext *context, void *data, void **argv) {
-        wrapCall(context, data, argv, [](const QQmlPrivate::AOTCompiledContext *aotContext, void **argumentsPtr) {
-Q_UNUSED(aotContext)
-Q_UNUSED(argumentsPtr)
-// expression for family at line 36, column 9
-QObject *r2_0;
-QString r2_2;
-QVariant r2_1;
-// generate_LoadQmlContextPropertyLookup
-#ifndef QT_NO_DEBUG
-aotContext->setInstructionPointer(2);
-#endif
-while (!aotContext->loadSingletonLookup(17, &r2_0)) {
-#ifdef QT_NO_DEBUG
-aotContext->setInstructionPointer(2);
-#endif
-aotContext->initLoadSingletonLookup(17, QQmlPrivate::AOTCompiledContext::InvalidStringId);
-if (aotContext->engine->hasError())
-    return QString();
-}
-// generate_GetLookup
-#ifndef QT_NO_DEBUG
-aotContext->setInstructionPointer(4);
-#endif
-r2_1 = QVariant(aotContext->lookupResultMetaType(18));
-while (!aotContext->getObjectLookup(18, r2_0, r2_1.data())) {
-#ifdef QT_NO_DEBUG
-aotContext->setInstructionPointer(4);
-#endif
-aotContext->initGetObjectLookup(18, r2_0, r2_1.metaType());
-if (aotContext->engine->hasError())
-    return QString();
-r2_1 = QVariant(aotContext->lookupResultMetaType(18));
-}
-// generate_GetLookup
-#ifndef QT_NO_DEBUG
-aotContext->setInstructionPointer(6);
-#endif
-while (!aotContext->getValueLookup(19, r2_1.data(), &r2_2)) {
-#ifdef QT_NO_DEBUG
-aotContext->setInstructionPointer(6);
-#endif
-aotContext->initGetValueLookup(19, []() { static const auto t = QMetaType::fromName("QQuickFontValueType"); return t; }().metaObject(), QMetaType::fromType<QString>());
-if (aotContext->engine->hasError())
-    return QString();
-}
-// generate_Ret
-return r2_2;
-});}
  },{ 10, QMetaType::fromType<QObject*>(), {  }, 
     [](const QQmlPrivate::AOTCompiledContext *context, void *data, void **argv) {
         wrapCall(context, data, argv, [](const QQmlPrivate::AOTCompiledContext *aotContext, void **argumentsPtr) {
@@ -1019,45 +852,6 @@ if (aotContext->engine->hasError())
 // generate_Ret
 return r2_0;
 });}
- },{ 11, QMetaType::fromType<QVariant>(), {  }, 
-    [](const QQmlPrivate::AOTCompiledContext *context, void *data, void **argv) {
-        wrapCall(context, data, argv, [](const QQmlPrivate::AOTCompiledContext *aotContext, void **argumentsPtr) {
-Q_UNUSED(aotContext)
-Q_UNUSED(argumentsPtr)
-// expression for from at line 48, column 17
-QObject *r2_0;
-QVariant r2_1;
-// generate_LoadQmlContextPropertyLookup
-#ifndef QT_NO_DEBUG
-aotContext->setInstructionPointer(2);
-#endif
-while (!aotContext->loadSingletonLookup(21, &r2_0)) {
-#ifdef QT_NO_DEBUG
-aotContext->setInstructionPointer(2);
-#endif
-aotContext->initLoadSingletonLookup(21, QQmlPrivate::AOTCompiledContext::InvalidStringId);
-if (aotContext->engine->hasError())
-    return QVariant();
-}
-// generate_GetLookup
-#ifndef QT_NO_DEBUG
-aotContext->setInstructionPointer(4);
-#endif
-r2_1 = QVariant(aotContext->lookupResultMetaType(22));
-while (!aotContext->getObjectLookup(22, r2_0, r2_1.data())) {
-#ifdef QT_NO_DEBUG
-aotContext->setInstructionPointer(4);
-#endif
-aotContext->initGetObjectLookup(22, r2_0, r2_1.metaType());
-if (aotContext->engine->hasError())
-    return QVariant();
-r2_1 = QVariant(aotContext->lookupResultMetaType(22));
-}
-// generate_Ret
-if (!r2_1.isValid())
-    aotContext->setReturnValueUndefined();
-return r2_1;
-});}
  },{ 12, QMetaType::fromType<QObject*>(), {  }, 
     [](const QQmlPrivate::AOTCompiledContext *context, void *data, void **argv) {
         wrapCall(context, data, argv, [](const QQmlPrivate::AOTCompiledContext *aotContext, void **argumentsPtr) {
@@ -1079,45 +873,6 @@ if (aotContext->engine->hasError())
 }
 // generate_Ret
 return r2_0;
-});}
- },{ 13, QMetaType::fromType<QVariant>(), {  }, 
-    [](const QQmlPrivate::AOTCompiledContext *context, void *data, void **argv) {
-        wrapCall(context, data, argv, [](const QQmlPrivate::AOTCompiledContext *aotContext, void **argumentsPtr) {
-Q_UNUSED(aotContext)
-Q_UNUSED(argumentsPtr)
-// expression for to at line 55, column 17
-QObject *r2_0;
-QVariant r2_1;
-// generate_LoadQmlContextPropertyLookup
-#ifndef QT_NO_DEBUG
-aotContext->setInstructionPointer(2);
-#endif
-while (!aotContext->loadSingletonLookup(24, &r2_0)) {
-#ifdef QT_NO_DEBUG
-aotContext->setInstructionPointer(2);
-#endif
-aotContext->initLoadSingletonLookup(24, QQmlPrivate::AOTCompiledContext::InvalidStringId);
-if (aotContext->engine->hasError())
-    return QVariant();
-}
-// generate_GetLookup
-#ifndef QT_NO_DEBUG
-aotContext->setInstructionPointer(4);
-#endif
-r2_1 = QVariant(aotContext->lookupResultMetaType(25));
-while (!aotContext->getObjectLookup(25, r2_0, r2_1.data())) {
-#ifdef QT_NO_DEBUG
-aotContext->setInstructionPointer(4);
-#endif
-aotContext->initGetObjectLookup(25, r2_0, r2_1.metaType());
-if (aotContext->engine->hasError())
-    return QVariant();
-r2_1 = QVariant(aotContext->lookupResultMetaType(25));
-}
-// generate_Ret
-if (!r2_1.isValid())
-    aotContext->setReturnValueUndefined();
-return r2_1;
 });}
  },{ 15, QMetaType::fromType<QObject*>(), {  }, 
     [](const QQmlPrivate::AOTCompiledContext *context, void *data, void **argv) {
