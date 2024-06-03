@@ -3,14 +3,15 @@ import QtQuick.Controls
 import content
 
 App {
+    visible: true
     width: 600
     height: 700
-    visible: true
+    title: "Minesweeper"
 
     property int gridSize: 10
-    property int bombCount: Math.min(gridSize * gridSize / 5, 20)
+    property int bombCount: 10
     property var bombPositions: []
-    property bool gameEnded: false // Track whether the game has ended
+    property bool gameEnded: false
 
     function initializeBombs() {
         bombPositions = [];
@@ -34,8 +35,13 @@ App {
     }
 
     onGridSizeChanged: {
-        bombCount = Math.min(gridSize * gridSize / 5, 20);
         initializeBombs();
+        restartGame();
+    }
+
+    onBombCountChanged: {
+        initializeBombs();
+        restartGame();
     }
 
     Column {
@@ -68,10 +74,29 @@ App {
             }
         }
 
-        Text {
-            id: bombCountText
-            text: "Bombs: " + bombCount
+        Row {
+            spacing: 10
             anchors.horizontalCenter: parent.horizontalCenter
+
+            Text {
+                text: "Bombs: " + bombCount
+                anchors.verticalCenter: parent.verticalCenter
+            }
+
+            Slider {
+                id: bombCountSlider
+                from: 15
+                to: Math.floor(gridSize * gridSize * 0.5)
+                stepSize: 5
+                value: bombCount
+                anchors.verticalCenter: parent.verticalCenter
+
+                onValueChanged: {
+                    bombCount = value;
+                    initializeBombs();
+                    restartGame();
+                }
+            }
         }
 
         Button {
@@ -81,13 +106,23 @@ App {
                 restartGame();
             }
             anchors.horizontalCenter: parent.horizontalCenter
+            width: 200
+            height: 50
+            font.pixelSize: 16
+            background: Rectangle {
+                color: "lightblue"
+                radius: 10
+            }
         }
 
         Rectangle {
             width: 400
             height: 400
-            color: "lightblue"
+            color: "#ADD8E6"
             anchors.horizontalCenter: parent.horizontalCenter
+            border.color: "#4682B4"
+            border.width: 2
+            radius: 10
 
             Grid {
                 id: gameGrid
@@ -104,6 +139,7 @@ App {
                         height: 400 / gridSize
                         border.color: "black"
                         color: "lightgray"
+                        radius: 5
 
                         property bool hasBomb: false
                         property bool revealed: false
@@ -121,7 +157,7 @@ App {
                         MouseArea {
                             anchors.fill: parent
                             onClicked: function(event) {
-                                if (gameEnded) return; // Prevent actions if game has ended
+                                if (gameEnded) return;
                                 if (!parent.revealed) {
                                     if (event.button === Qt.RightButton) {
                                         parent.flagged = !parent.flagged;
@@ -142,8 +178,6 @@ App {
                                             }
                                         } else {
                                             textItem.visible = true;
-                                            bombCount--;
-                                            bombCountText.text = "Bombs: " + bombCount;
                                             gameOver();
                                         }
                                     }
@@ -192,10 +226,12 @@ App {
     function revealEmptyCells(cellX, cellY) {
         for (var i = Math.max(0, cellX - 1); i <= Math.min(gridSize - 1, cellX + 1); i++) {
             for (var j = Math.max(0, cellY - 1); j <= Math.min(gridSize - 1, cellY + 1); j++) {
-                if (i !== cellX || j !== cellY) {
+                if (i !== cellX || j !== cellY
+                        ) {
                     var cellIndex = i + j * gridSize;
                     var cell = cellRepeater.itemAt(cellIndex);
-                    if (cell && !cell.revealed && !cell.hasBomb) {
+                    if (cell && !cell
+                            .revealed && !cell.hasBomb) {
                         cell.revealed = true;
                         cell.color = "white";
                         var nearbyBombCount = countNearbyBombs(i, j);
@@ -212,18 +248,16 @@ App {
     }
 
     function restartGame() {
-        cellRepeater.model = 0; // Reset the model to clear the grid
-        cellRepeater.model = gridSize * gridSize; // Reassign the model to recreate the grid
-        bombCount = Math.min(gridSize * gridSize / 5, 20); // Reset bombCount
-        bombCountText.text = "Bombs: " + bombCount;
+        cellRepeater.model = 0;
+        cellRepeater.model = gridSize * gridSize;
+        bombCountSlider.value = bombCount; // Reset the bombCountSlider
         gameOverText.visible = false;
-        gameEnded = false; // Reset the game status
+        gameEnded = false;
         console.log("Game restarted");
     }
 
-
     function gameOver() {
-        gameEnded = true; // Set the game status to ended
+        gameEnded = true;
         gameOverText.visible = true;
         console.log("Game over");
         for (var i = 0; i < cellRepeater.count; i++) {
@@ -232,6 +266,14 @@ App {
                 cell.color = "red";
                 cell.revealed = true;
             }
+        }
+    }
+
+    function cellColor() {
+        if (gameEnded) {
+            return "gray"; // Change color of cells when the game is over
+        } else {
+            return "lightgray"; // Default color for cells
         }
     }
 
